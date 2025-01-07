@@ -5,7 +5,7 @@ class errorHandler extends Error
         super(message)
         this.message=message
         this.statusCode = statusCode
-        this.success = success
+        // this.success = success
         this.data = null
         this.errors = errors
 

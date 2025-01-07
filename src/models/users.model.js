@@ -29,13 +29,14 @@ const userSchema = new Schema
             unique:true
         },
         avatar:{
-            type:String
+            type:String,
+            required:true
         },
         coverImage:{
             type:String,
             required:true
         },
-        refreshtOKEN:{
+        refreshToken:{
             type:String,
 
         },
